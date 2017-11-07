@@ -32,8 +32,8 @@ const NutshellDatabase = {
         { "id": 1, "userId": 2, "url": "https://www.quantamagazine.org/newfound-wormhole-allows-information-to-escape-black-holes-20171023/", "note": "Check out this recent discovery about workholes" }
     ],
     "friends": [
-        { "userId": 1, "friendId": 3 },
-        { "userId": 1, "friendId": 2 }
+        { "connectionId": 1, "userId": 1, "friendId": 3 },
+        { "connectionId": 2, "userId": 1, "friendId": 2 }
     ],
     "tasks": [
         { "id": 1, "userId": 3, "task": "Take out garbage" }
