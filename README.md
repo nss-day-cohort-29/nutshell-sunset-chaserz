@@ -29,7 +29,13 @@ const NutshellDatabase = {
         { "id": 1, "userId": 1, "message": "What's up?" }
     ],
     "news": [
-        { "id": 1, "userId": 2, "url": "https://www.quantamagazine.org/newfound-wormhole-allows-information-to-escape-black-holes-20171023/", "note": "Check out this recent discovery about workholes" }
+        {
+          "id": 1,
+          "userId": 2,
+          "url": "https://www.quantamagazine.org/newfound-wormhole-allows-information-to-escape-black-holes-20171023/",
+          "title": "Wormholes Allow Information to Escape Black Holes",
+          "synopsis": "Check out this recent discovery about workholes"
+        }
     ],
     "friends": [
         { "connectionId": 1, "userId": 1, "friendId": 3 },
