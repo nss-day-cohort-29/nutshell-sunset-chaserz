@@ -44,7 +44,7 @@ To start you off, here's an example of what the resources in your API should loo
 ### Friends
 
 ```json
-{ "connectionId": 1, "userId": 1, "friendId": 3 }
+{ "connectionId": 1, "userId": 1, "otherFriendId": 3 }
 ```
 
 ### Tasks
