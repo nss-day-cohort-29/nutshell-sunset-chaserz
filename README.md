@@ -61,7 +61,7 @@ To start you off, here's an example of what the resources in your API should loo
 
 ## How to Handle Authentication
 
-You will be using session storage to keep track of which user has logged into Nutshell. When the user fills out the registration form, you will POST their username and password to the `users` collection in your API. You will then immediately the `id` of the object in the response and save it to session storage.
+You will be using session storage to keep track of which user has logged into Nutshell. When the user fills out the registration form, you will POST their username and password to the `users` collection in your API. You will then immediately take the `id` of the object in the response and save it to session storage.
 
 ```js
 sessionStorage.setItem("activeUser", user.id)
