@@ -2,5 +2,6 @@
 lib/node_modules
 lib/package-lock.json
 lib/package.json
+database.json
 dist/
   
