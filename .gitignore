@@ -1,7 +1,5 @@
 .DS_Store
-lib/node_modules
-lib/package-lock.json
-lib/package.json
+node_modules
 database.json
 dist/
   
