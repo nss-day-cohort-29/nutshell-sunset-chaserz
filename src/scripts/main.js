@@ -1,6 +1,7 @@
 import dataCollection from "./dataCollection";
-import taskForm from "./taskForm";
+import taskForm from "./forms";
 
 console.log(dataCollection.soManyFriend());
+console.log(taskForm)
 
 //window.alert('HI');
