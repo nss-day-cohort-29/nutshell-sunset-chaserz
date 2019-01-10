@@ -6,12 +6,13 @@ registrationForm.createAndAppendForm();
 
 
 let newAcctButton = document.querySelector('[name="newAcctButton"]')
-let usernameInputField = document.getElementById("exampleInputEmail1")
 
 newAcctButton.addEventListener("click", function() {
-
-
-}
+  let usernameInputField = document.getElementById("exampleInputEmail1");
+  let usernameInputValue = usernameInputField.value;
+  console.log("userNameInputValue :");
+});
+dataCollection.yayNewPal(newUser)
 //Works
 //console.log(newAcctButton.className);
 const handleNewUser = () => {
@@ -22,7 +23,7 @@ const handleNewUser = () => {
     password: password
   }
   console.log("email:")
- // newAcctButton.addEventListener("click", handleNewUser()),
+
 
 // dataCollection.yayNewPal(newUser)
 //   .then(response => {
