@@ -1,3 +1,5 @@
-import dataCollection from "./module1"
+import dataCollection from "./dataCollection"
 
-console.log(dataCollection.getAllUsers())
+console.log(dataCollection.soManyFriend());
+
+window.alert('HI')
