@@ -4,6 +4,7 @@
 
 
 import forms2 from "./forms2"
+// We need move form information from forms2 to forms and get rid of forms2
 
 const eventListeners = {
 
@@ -76,3 +77,5 @@ let saveCalListener = document.getElementById("save-cal-btn").addEventListener("
 
 // ---------------------------- END EVENT/CAL LISTENTERS/HANDLERS -------------------------------
 
+
+// HN: the giant eventListener object needs to be exported here
