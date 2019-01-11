@@ -1,8 +1,9 @@
 import dataCollection from "./dataCollection";
+import calendarEvents from "./eventListener";
+import eventListeners from "./eventListener"
+// import saveCalListener from "./eventListener"
 import taskForm from "./forms";
 import taskList from "./dataList";
-import eventListeners from "./eventListener"
-
 
 taskList.listify()
 taskForm.createAndAppendForm()
@@ -20,7 +21,11 @@ eventListeners.newsClick();
 // import registrationForm from "./registration"
 // import taskForm from "./forms";
 
-// //import eventListener from "./eventListener"
+// console.log(dataCollection.soManyFriend());
+console.log(taskForm)
+console.log(calendarEvents)
+// ---------------------------- BEGIN REGISTRATION  -------------------------------
+
 // registrationForm.createAndAppendForm();
 
 // let newAcctButton = document.querySelector('[name="newAcctButton"]')
@@ -60,3 +65,5 @@ eventListeners.newsClick();
 // console.log(taskForm)
 
 // //window.alert('HI');
+
+// ---------------------------- END REGISTRATION  -------------------------------
