@@ -47,7 +47,9 @@ taskForm.innerHTML = `
     <button type="submit" id="taskBtn">Add Task</button>
   </form>
   `
-console.log(taskForm);
+// console.log(taskForm);
+
+
 export default taskForm
 
 // --------------------------------------- BEGIN EVENTS/CAL FORM ------------------------------

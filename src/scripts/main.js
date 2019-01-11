@@ -1,7 +1,17 @@
 import dataCollection from "./dataCollection";
 import calendarEvents from "./eventListener";
 // import saveCalListener from "./eventListener"
-// //import eventListener from "./eventListener"
+import eventListeners from "./eventListener"
+import taskForm from "./forms";
+
+console.log(dataCollection.soManyFriend());
+console.log(dataCollection.getAllNews());
+console.log(taskForm)
+
+
+eventListeners.newsClick();
+//window.alert('HI');
+// import dataCollection from "./dataCollection"
 // import dataList from "./dataList"
 // import registrationForm from "./registration"
 // import taskForm from "./forms";
