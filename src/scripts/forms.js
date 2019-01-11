@@ -1,3 +1,7 @@
+
+
+
+
 //TASKS FORM
 let taskForm = document.getElementById("taskContainer");
 taskForm.innerHTML = `
@@ -12,6 +16,8 @@ taskForm.innerHTML = `
     <button type="submit" id="taskBtn">Add Task</button>
   </form>
   `
-console.log(taskForm);
+// console.log(taskForm);
+
+
 export default taskForm
 
