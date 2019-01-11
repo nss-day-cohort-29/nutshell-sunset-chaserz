@@ -1,8 +1,13 @@
 import dataCollection from "./dataCollection";
 import calendarEvents from "./eventListener";
-// import saveCalListener from "./eventListener"
 import eventListeners from "./eventListener"
+// import saveCalListener from "./eventListener"
 import taskForm from "./forms";
+import taskList from "./dataList";
+
+taskList.listify()
+taskForm.createAndAppendForm()
+
 
 console.log(dataCollection.soManyFriend());
 console.log(dataCollection.getAllNews());
