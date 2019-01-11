@@ -18,14 +18,13 @@ const forms2 = {
         </fieldset>
         <fieldset class="newsField">
             <label for="newsContent">Synopsis</label>
-            <input id="newsContent"></input>
+            <input required type="text" id="newsContent"></input>
         </fieldset>
         <fieldset class="newsField">
             <label for="newsURL">URL</label>
-            <input required type="text" id="newsURL">
+            <input required type="text" id="newsURL"></input>
         </fieldset>
-        <button class="saveNewsButton">Save News Entry</button>
-        <button class="backToNewsButton">Back to News</button>
+        <button class="saveNewsButton">Save this Entry</button>
         `
         }
 
