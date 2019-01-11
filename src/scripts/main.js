@@ -1,6 +1,12 @@
 import dataCollection from "./dataCollection";
 import taskForm from "./forms";
+import taskList from "./dataList";
 import eventListeners from "./eventListener"
+
+
+taskList.listify()
+taskForm.createAndAppendForm()
+
 
 console.log(dataCollection.soManyFriend());
 console.log(dataCollection.getAllNews());
