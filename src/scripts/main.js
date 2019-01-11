@@ -1,20 +1,17 @@
-<<<<<<< HEAD
 import dataCollection from "./dataCollection";
 import calendarEvents from "./eventListener";
 // import saveCalListener from "./eventListener"
-
-// console.log(dataCollection.soManyFriend());
-console.log(taskForm)
-console.log(calendarEvents)
-=======
-// import dataCollection from "./dataCollection"
+// //import eventListener from "./eventListener"
 // import dataList from "./dataList"
 // import registrationForm from "./registration"
 // import taskForm from "./forms";
 
-// //import eventListener from "./eventListener"
+// console.log(dataCollection.soManyFriend());
+console.log(taskForm)
+console.log(calendarEvents)
+// ---------------------------- BEGIN REGISTRATION  -------------------------------
+
 // registrationForm.createAndAppendForm();
->>>>>>> master
 
 // let newAcctButton = document.querySelector('[name="newAcctButton"]')
 
@@ -53,3 +50,5 @@ console.log(calendarEvents)
 // console.log(taskForm)
 
 // //window.alert('HI');
+
+// ---------------------------- END REGISTRATION  -------------------------------

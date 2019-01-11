@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //import registrationForm from "./registration";
 
 // All event listeners
@@ -41,5 +40,3 @@ let saveCalListener = document.getElementById("save-cal-btn").addEventListener("
 
 // ---------------------------- END EVENT/CAL LISTENTERS/HANDLERS -------------------------------
 
-=======
->>>>>>> master
