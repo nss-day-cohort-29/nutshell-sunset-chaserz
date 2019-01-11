@@ -1,0 +1,14 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "Sunset Chaser",
+        "email": "sunset@gmail.com"
+      }
+    ],
+    "articles": [ ],
+    "events": [],
+    "tasks": [ ],
+    "friends": [],
+    "messages": [ ]
+  }

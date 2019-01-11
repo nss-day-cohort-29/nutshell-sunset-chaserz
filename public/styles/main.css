@@ -5,3 +5,34 @@
 Active states—with .active—to indicate the current page can be applied directly to .nav-links or their immediate parent .nav-items. */
 
 /* <!---------------------------------  END NAVBAR  -------------------------------------> */
+
+#newsContainer {
+    background-color: burlywood;
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black
+}
+#taskContainer {
+    background-color: burlywood;
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black
+}
+#eventContainer {
+    background-color: burlywood;
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black
+}
+#messageContainer {
+    background-color: burlywood;
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black
+}
+#bestiesContainer {
+    background-color: burlywood;
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black
+}

@@ -1,15 +1,20 @@
 import dataCollection from "./dataCollection";
 import taskForm from "./forms";
 import taskList from "./dataList";
+import eventListeners from "./eventListener"
 
-console.log(dataCollection.soManyFriend());
 
-//this console.log is needed for the import to work
-console.log(taskForm)
-
-//remind me why these need to be called again in main.js......
 taskList.listify()
 taskForm.createAndAppendForm()
+
+
+console.log(dataCollection.soManyFriend());
+console.log(dataCollection.getAllNews());
+console.log(taskForm)
+
+
+eventListeners.newsClick();
+//window.alert('HI');
 // import dataCollection from "./dataCollection"
 // import dataList from "./dataList"
 // import registrationForm from "./registration"
