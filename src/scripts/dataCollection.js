@@ -8,7 +8,7 @@ const dataCollection = {
     .then(response => response.json())
     .then(response => {
       // WORKS
-      console.log(response)
+      // console.log(response)
     })
   },
   //***** TEST *****/
@@ -22,6 +22,16 @@ const dataCollection = {
       body: JSON.stringify(newUser)
     })
   },
+  //News feature- gmr
+  getAllNews() {
+    return fetch("http://localhost:8088/news")
+    .then(response => response.json())
+    .then(response => {
+      // WORKS
+      console.log(response)
+    })
+  },
+
 }
 
 export default dataCollection
