@@ -7,7 +7,7 @@ const taskList = {
     //Get data
     //the getAlltasks method will do a fetch and return a promise
     //--return data from database.json
-    taskCollection.getAlltasks()
+    taskCollection.getAllTasks()
     //.then here refers to fetch call in taskCollection.js
     .then(alltasks => {
       let taskDocFragment = document.createDocumentFragment();
