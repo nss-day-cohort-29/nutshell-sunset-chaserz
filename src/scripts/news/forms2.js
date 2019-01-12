@@ -3,30 +3,32 @@
 
 const forms2 = {
 
-    // clearForm() {
-    //     return
-    //         document.querySelector("#taskName").value = ""
-    //         document.querySelector("#taskDescription").value = ""
-
-    // },
     renderNewsForm() {
 
-            return `
+        return `
         <fieldset class="newsField">
-            <label for="newsTitle">Title</label>
-            <input required type="text" id="newsTitle">
+        <label for="newsTitle">Title</label>
+        <input required type="text" id="newsTitle">
         </fieldset>
         <fieldset class="newsField">
-            <label for="newsContent">Synopsis</label>
-            <input required type="text" id="newsContent"></input>
+        <label for="newsContent">Synopsis</label>
+        <input required type="text" id="newsContent"></input>
         </fieldset>
         <fieldset class="newsField">
-            <label for="newsURL">URL</label>
-            <input required type="text" id="newsURL"></input>
+        <label for="newsURL">URL</label>
+        <input required type="text" id="newsURL"></input>
         </fieldset>
         <button class="saveNewsButton">Save this Entry</button>
         `
-        }
+    },
+    clearForm() {
+        console.log("save news button clicked");
+        // document.getElementById("newsTitle").value = "";
+        // document.getElementById("newsContent").value = "";
+        // document.getElementById("newsURL").value = "";
+
+        // return
+    }
 
 }
 

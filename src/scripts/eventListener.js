@@ -16,7 +16,19 @@ const eventListeners = {
         let newsContainerDiv = document.getElementById("newsContainer");
         newsContainerDiv.innerHTML += forms2.renderNewsForm();})
         // return makeNewsplaceholder
-      }
+      },
+
+    newsFormSaveEntryButton() {
+        let newsFormSaveEntryButton = document.getElementById("saveNewsButton");
+        newsFormSaveEntryButton.addEventListener("click", () => {
+            //another function needed to capture the values and POST,
+            //then
+            forms2.clearForm()
+        })
+
+    }
+
+
 
       //import registrationForm from "./registration";
 

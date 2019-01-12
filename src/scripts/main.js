@@ -19,11 +19,19 @@ console.log("new friend!" , dataCollection.soManyFriend());
 
 // console.log(taskForm)
 
-// let newsContainerDiv = document.getElementById("newsContainer");
+let newsContainerDiv = document.getElementById("newsContainer");
 // newsContainerDiv.innerHTML += forms2.renderNewsForm();
 
 
 eventListener.newsClick();
+
+
+
+newsContainerDiv.addEventListener("click", () => {
+    eventListener.newsFormSaveEntryButton();
+})
+
+
 //window.alert('HI');
 // import dataCollection from "./dataCollection"
 // import dataList from "./dataList"
