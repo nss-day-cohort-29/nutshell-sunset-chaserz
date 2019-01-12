@@ -1,9 +1,9 @@
 import dataCollection from "./dataCollection";
-import calendarEvents from "./eventListener";
-import eventListeners from "./eventListener"
+// import calendarEvents from "./eventListener";
+// import eventListeners from "./eventListener"
 // import saveCalListener from "./eventListener"
 import taskForm from "./forms";
-import taskList from "./dataList";
+// import taskList from "./dataList";
 
 taskList.listify()
 taskForm.createAndAppendForm()
@@ -14,7 +14,7 @@ console.log(dataCollection.getAllNews());
 console.log(taskForm)
 
 
-eventListeners.newsClick();
+// eventListeners.newsClick();
 //window.alert('HI');
 // import dataCollection from "./dataCollection"
 // import dataList from "./dataList"
@@ -23,7 +23,7 @@ eventListeners.newsClick();
 
 // console.log(dataCollection.soManyFriend());
 console.log(taskForm)
-console.log(calendarEvents)
+// console.log(calendarEvents)
 // ---------------------------- BEGIN REGISTRATION  -------------------------------
 
 // registrationForm.createAndAppendForm();

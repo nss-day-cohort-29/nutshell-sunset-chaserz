@@ -63,12 +63,12 @@ export default eventListeners
 // ---------------------------- BEGIN EVENT/CAL LISTENTERS/HANDLERS -------------------------------
 // Create eventListener ("click") for save-cal-btn
 // let calendarEvents = {
-let saveCalListener = document.getElementById("save-cal-btn").addEventListener("click", function(event) {
-    let calFormNameInput = "calNameInput";
-    let calFormDateInput = "calDateInput";
-    let calFormLocationInput = "calLocationInput";
-    console.log(calFormNameInput.value, calFormDateInput.value, calFormLocationInput.value);
-})
+// let saveCalListener = document.getElementById("save-cal-btn").addEventListener("click", function(event) {
+//     let calFormNameInput = "calNameInput";
+//     let calFormDateInput = "calDateInput";
+//     let calFormLocationInput = "calLocationInput";
+//     console.log(calFormNameInput.value, calFormDateInput.value, calFormLocationInput.value);
+// })
 // }
 // export default calendarEvents
 

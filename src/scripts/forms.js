@@ -16,72 +16,72 @@ import taskList from "./dataList"
 // const sharedFormsBuilder = {
 
 
-  
+
   // --------------------------------------- BEGIN TASKS FORM ------------------------------
-  
-  const forms = {
-    let taskForm = document.getElementById("taskContainer");
-    taskForm.innerHTML = `
-    <form>
-    <h5>Tasks</h5>
-    <div class="form-group">
-    <input type="text" class="form-control" id="formGroupNameInput" placeholder="Task Name">
-    </div>
-    <div class="form-group">
-    <input type="date" class="form-control" id="formGroupDateInput" placeholder="Due Date">
-    </div>
-    <button type="submit" id="taskBtn">Add Task</button>
-    </form>
-    `
-    //Attach event listener to button in form
-    taskBtn.addEventListener("click", handleAddNewTask());
-    
-    //Function that executes when event happens
-    function handleAddNewTask() {
-      //get user input
-      let inputTaskName = document.getElementById("formGroupNameInput").value
-      let inputTaskDate = document.getElementById("formGroupDateInput").value
-      
-      //create new object
-      let newTask = {
-        name: inputTaskName,
-        date: inputTaskDate
-      }
-      
-      //call the method (postNewTask)
-      //--fetch request: POST to the database and pass it the object we just created
-      postNewTask(newTask)
-      //grunt wouldn't run until i console logged response
-      .then(response => {
-        taskList.listify()
-        console.log(response)
-      })
-    }
-  }
-  export default forms
+
+  // const forms = {
+  //   let taskForm = document.getElementById("taskContainer");
+  //   taskForm.innerHTML = `
+  //   <form>
+  //   <h5>Tasks</h5>
+  //   <div class="form-group">
+  //   <input type="text" class="form-control" id="formGroupNameInput" placeholder="Task Name">
+  //   </div>
+  //   <div class="form-group">
+  //   <input type="date" class="form-control" id="formGroupDateInput" placeholder="Due Date">
+  //   </div>
+  //   <button type="submit" id="taskBtn">Add Task</button>
+  //   </form>
+  //   `
+  //   //Attach event listener to button in form
+  //   taskBtn.addEventListener("click", handleAddNewTask());
+
+  //   //Function that executes when event happens
+  //   function handleAddNewTask() {
+  //     //get user input
+  //     let inputTaskName = document.getElementById("formGroupNameInput").value
+  //     let inputTaskDate = document.getElementById("formGroupDateInput").value
+
+  //     //create new object
+  //     let newTask = {
+  //       name: inputTaskName,
+  //       date: inputTaskDate
+  //     }
+
+  //     //call the method (postNewTask)
+  //     //--fetch request: POST to the database and pass it the object we just created
+  //     postNewTask(newTask)
+  //     //grunt wouldn't run until i console logged response
+  //     .then(response => {
+  //       taskList.listify()
+  //       console.log(response)
+  //     })
+  //   }
+  // }
+  // export default forms
   // --------------------------------------- END TASKS FORM ------------------------------
-  
+
   // --------------------------------------- BEGIN EVENTS/CAL FORM ------------------------------
-  
-  let calForm = document.getElementById("calContainer");
-  calForm.innerHTML = `
-  
-  <form>
-  <h5>Events</h5>
-  <div class = "form-group">
-  <input type = "text" class = "form-control" id = "calNameInput" placeholder="Event Name">
-  </div>
-  <div class = "form-group">
-  <input type="date" class = "form-control" id = "calDateInput" placeholder="Event Date">
-  </div>
-  <div class = "form-group">
-  <input type = "text" class = "form-control" id = "calLocationInput" placeholder="Event Location">
-  </div>
-  <button type="submit" id="save-cal-btn">Add Event</button>
-  </form>`
+
+  // let calForm = document.getElementById("calContainer");
+  // calForm.innerHTML = `
+
+  // <form>
+  // <h5>Events</h5>
+  // <div class = "form-group">
+  // <input type = "text" class = "form-control" id = "calNameInput" placeholder="Event Name">
+  // </div>
+  // <div class = "form-group">
+  // <input type="date" class = "form-control" id = "calDateInput" placeholder="Event Date">
+  // </div>
+  // <div class = "form-group">
+  // <input type = "text" class = "form-control" id = "calLocationInput" placeholder="Event Location">
+  // </div>
+  // <button type="submit" id="save-cal-btn">Add Event</button>
+  // </form>`
   // export default calForm
   // --------------------------------------- END EVENTS/CAL FORM ------------------------------
-  
+
   // --------------MESSAGES FORM ---------------------------------
-  
+
   // --------------FRIENDS FORM ---------------------------------
