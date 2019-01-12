@@ -33,7 +33,7 @@ const registrationForm = {
     newAcctBtn.textContent = "New Account"
     newAcctBtn.setAttribute("class", "new__acct")
 
-    newAcctBtn.addEventListener("click", this.handleAddNewUser)
+    newAcctBtn.addEventListener("click", handleAddNewUser)
 
     //Refer to div on index with id "regForm"
     // 2. Create an empty frag and build it up

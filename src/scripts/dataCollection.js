@@ -8,7 +8,7 @@ const dataCollection = {
     .then(response => response.json())
     .then(response => {
       // WORKS
-      // console.log(response)
+      console.log(response)
     })
   },
   //***** TEST *****/
@@ -24,13 +24,17 @@ const dataCollection = {
   },
   //News feature- gmr
   getAllNews() {
-    return fetch("http://localhost:8088/news")
+    return fetch("http://localhost:8088/events")
     .then(response => response.json())
     .then(response => {
       // WORKS
       console.log(response)
     })
   },
+  getAllTasks() {
+    return fetch("http://localhost:8088/tasks")
+    .then(response => response.json())
+  }
 
 }
 // *** EXPORT to registration.js (eventually forms.js) ***

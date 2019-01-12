@@ -1,20 +1,29 @@
 import dataCollection from "./dataCollection";
 // import calendarEvents from "./eventListener";
-// import eventListeners from "./eventListener"
+import eventListener from "./eventListener"
 // import saveCalListener from "./eventListener"
-import taskForm from "./forms";
+// import taskForm from "./forms";
 // import taskList from "./dataList";
+// import forms2 from "./news/forms2"
+// taskList.listify()
+// taskForm.createAndAppendForm()
 
-taskList.listify()
-taskForm.createAndAppendForm()
 
-
-console.log(dataCollection.soManyFriend());
+dataCollection.soManyFriend();
 console.log(dataCollection.getAllNews());
-console.log(taskForm)
+
+var myHonda = {color: "red", wheels: 4, engine: {cylinders: 4, size: 2.2}};
+dataCollection.yayNewPal(myHonda)
+console.log("new friend!" , dataCollection.soManyFriend());
 
 
-// eventListeners.newsClick();
+// console.log(taskForm)
+
+// let newsContainerDiv = document.getElementById("newsContainer");
+// newsContainerDiv.innerHTML += forms2.renderNewsForm();
+
+
+eventListener.newsClick();
 //window.alert('HI');
 // import dataCollection from "./dataCollection"
 // import dataList from "./dataList"
@@ -22,7 +31,7 @@ console.log(taskForm)
 // import taskForm from "./forms";
 
 // console.log(dataCollection.soManyFriend());
-console.log(taskForm)
+// console.log(taskForm)
 // console.log(calendarEvents)
 // ---------------------------- BEGIN REGISTRATION  -------------------------------
 

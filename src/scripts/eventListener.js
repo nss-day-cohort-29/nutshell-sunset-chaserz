@@ -3,19 +3,19 @@
 // purpose: build and export an object with methods allowing for eventlisteners.
 
 
-import forms2 from "./forms2"
+import forms2 from "./news/forms2"
 
 const eventListeners = {
 
     // when user clicks on "News" in NavBar, execute a function
     newsClick() {
 
-        let makeNewsplaceholder = document.getElementById('newsNavLink');
+        let makeNewsplaceholder = document.getElementById("newsNavLink");
         // makeNewsplaceholder.addEventListener("click", () => forms2.renderNewsForm);
-        makeNewsplaceholder.addEventListener("click", () => console.log("clicked news nav link"))
+        makeNewsplaceholder.addEventListener("click", () => {
         let newsContainerDiv = document.getElementById("newsContainer");
-        newsContainerDiv.innerHTML += forms2.renderNewsForm();
-        return makeNewsplaceholder
+        newsContainerDiv.innerHTML += forms2.renderNewsForm();})
+        // return makeNewsplaceholder
       }
 
       //import registrationForm from "./registration";
