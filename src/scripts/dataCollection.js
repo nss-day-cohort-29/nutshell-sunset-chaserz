@@ -32,7 +32,7 @@ const dataCollection = {
     })
   },
 
-}
+
 // *** EXPORT to registration.js (eventually forms.js) ***
 export default dataCollection
 

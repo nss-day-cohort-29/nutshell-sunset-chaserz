@@ -3,20 +3,20 @@
 // purpose: build and export an object with methods allowing for eventlisteners.
 
 
-import forms2 from "./forms2"
+// import forms2 from "./forms2"
 
-const eventListeners = {
+// const eventListeners = {
 
-    // when user clicks on "News" in NavBar, execute a function
-    newsClick() {
+//     // when user clicks on "News" in NavBar, execute a function
+//     newsClick() {
 
-        let makeNewsplaceholder = document.getElementById('newsNavLink');
-        // makeNewsplaceholder.addEventListener("click", () => forms2.renderNewsForm);
-        makeNewsplaceholder.addEventListener("click", () => console.log("clicked news nav link"))
-        let newsContainerDiv = document.getElementById("newsContainer");
-        newsContainerDiv.innerHTML += forms2.renderNewsForm();
-        return makeNewsplaceholder
-      }
+//         let makeNewsplaceholder = document.getElementById('newsNavLink');
+//         // makeNewsplaceholder.addEventListener("click", () => forms2.renderNewsForm);
+//         makeNewsplaceholder.addEventListener("click", () => console.log("clicked news nav link"))
+//         let newsContainerDiv = document.getElementById("newsContainer");
+//         newsContainerDiv.innerHTML += forms2.renderNewsForm();
+//         return makeNewsplaceholder
+//       }
 
       //import registrationForm from "./registration";
 
@@ -34,9 +34,9 @@ const eventListeners = {
       // }
       //export default eventListener
 
-}
+//}
 
-export default eventListeners
+// export default eventListeners
 
 // HN:
 // Create eventhandlers to capture the values of userInput
@@ -63,12 +63,12 @@ export default eventListeners
 // ---------------------------- BEGIN EVENT/CAL LISTENTERS/HANDLERS -------------------------------
 // Create eventListener ("click") for save-cal-btn
 // let calendarEvents = {
-let saveCalListener = document.getElementById("save-cal-btn").addEventListener("click", function(event) {
-    let calFormNameInput = "calNameInput";
-    let calFormDateInput = "calDateInput";
-    let calFormLocationInput = "calLocationInput";
-    console.log(calFormNameInput.value, calFormDateInput.value, calFormLocationInput.value);
-})
+// let saveCalListener = document.getElementById("save-cal-btn").addEventListener("click", function(event) {
+//     let calFormNameInput = "calNameInput";
+//     let calFormDateInput = "calDateInput";
+//     let calFormLocationInput = "calLocationInput";
+//     console.log(calFormNameInput.value, calFormDateInput.value, calFormLocationInput.value);
+// })
 // }
 // export default calendarEvents
 
