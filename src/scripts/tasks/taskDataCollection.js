@@ -1,4 +1,4 @@
-const dataCollection = {
+/* const dataCollection = {
   //TASK FETCH CALLS
     getAllTasks() {
       return fetch("http://localhost:8088/tasks")
@@ -16,4 +16,4 @@ const dataCollection = {
     }
 }
 
-export default dataCollection
+export default dataCollection */

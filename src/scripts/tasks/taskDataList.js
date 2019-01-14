@@ -1,5 +1,5 @@
 // Here is where the second promises can be listed, imported from dataCollection.js
-
+/* 
 import taskCollection from "./taskDataCollection"
 
 const taskList = {
@@ -30,4 +30,4 @@ const taskList = {
   }
 }
 
-export default taskList
+export default taskList */

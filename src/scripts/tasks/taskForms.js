@@ -1,4 +1,4 @@
-import taskList from "./taskDataList"
+/* import taskList from "./taskDataList"
 
 const sharedFormsBuilder = {
   createAndAppendForm () {
@@ -73,4 +73,4 @@ const sharedFormsBuilder = {
   }
 }
   
-export default sharedFormsBuilder
+export default sharedFormsBuilder */

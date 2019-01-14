@@ -1,7 +1,7 @@
 // BUILD the structure to display data objects on the DOM.
 // Fridgify reference - food.js
 
-
+/* 
 //TASKS
 function taskBuilder(taskObject) {
   let taskArticle = document.createElement("article")
@@ -17,4 +17,4 @@ function taskBuilder(taskObject) {
   taskArticle.appendChild(taskType)
 
   return taskArticle
-};
+}; */
