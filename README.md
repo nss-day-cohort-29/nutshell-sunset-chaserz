@@ -6,18 +6,19 @@
 ### Grady Robbins
 
 # Setup : how another person can download and run the application
-Clone this repository
-1. npm install
+1. Clone this repository
+   
+2. npm install
 
-1. npm start
+3. npm start
 
-1. In a new command line window, cd src/lib , "grunt"
+4. In a new command line window, cd src/lib , "grunt"
 
-1. copy/paste all data from starterdatabase.json ==> database.json (establishes valid endpoints)
+5. copy/paste all data from starterdatabase.json ==> database.json (establishes valid endpoints)
 
-1. spin up json server
+6. spin up json server
 
-1. spin up http server
+7. spin up http server
 
 
 
