@@ -2,9 +2,6 @@
 // Fridgify reference - food.js
 
 
-
-// ----------------------------------- BEGIN EVENTS/CAL USER DISPLAY -------------------------------------
-
 //TASKS
 function taskBuilder(taskObject) {
   let taskArticle = document.createElement("article")

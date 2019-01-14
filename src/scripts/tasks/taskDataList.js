@@ -1,6 +1,6 @@
 // Here is where the second promises can be listed, imported from dataCollection.js
 
-import taskCollection from "./dataCollection"
+import taskCollection from "./taskDataCollection"
 
 const taskList = {
   listify(){
