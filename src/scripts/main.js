@@ -4,10 +4,10 @@ import eventListeners from "./tasks/taskEventListeners"
 // import saveCalListener from "./eventListener"
 import taskForm from "./tasks/taskForms";
 import taskList from "./tasks/taskDataList";
-import registrationForm from "./registration"
+import registrationForm from "./registration/registration"
 
 // Zac
-eventListener.onload(registrationForm.createAndAppendForm())
+//eventListener.onload(registrationForm.createAndAppendForm())
 registrationForm.handleAddNewUser()
 
 // Allison

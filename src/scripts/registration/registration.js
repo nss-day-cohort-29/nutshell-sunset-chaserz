@@ -1,7 +1,8 @@
 import userCollection from "./userCollection"
-import eventListener from "./eventListener"
+//import eventListener from "./eventListener"
 const registrationForm = {
   createAndAppendForm () {
+
     // 1. Build HTML form...like a boss!
     let formHeader = document.createElement("h3")
     formHeader.textContent = "Welcome to Nutshell!"
@@ -42,13 +43,14 @@ const registrationForm = {
       if (nodes[i].nodeName.toLowerCase() == "div") {
         nodes[i].style.visibility = "hidden";
       }
-        if (newAcctBtn.click === true) {
-          if (userInputEmail && userInputUsername != null){
-            nodes[i].style.visibility = "visible";
-            console.log("clicked")
-          }
-        }
+        // if (newAcctBtn.click === true) {
+        //   if (userInputEmail && userInputUsername != null){
+        //     nodes[i].style.visibility = "visible";
+        //     console.log("clicked")
+        //   }
+        // }
     }
+
     // Hides display divs beneath the login section until login.
     // for(var i=0; i<nodes.length; i++) {
     //   if (nodes[i].nodeName.toLowerCase() == "div") {
