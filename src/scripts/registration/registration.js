@@ -1,5 +1,5 @@
 import userCollection from "./userCollection"
-//import eventListener from "./eventListener"
+
 const registrationForm = {
   createAndAppendForm () {
 
@@ -8,7 +8,7 @@ const registrationForm = {
     formHeader.textContent = "Welcome to Nutshell!"
     let emailField = document.createElement("fieldset")
     let emailLabel = document.createElement("label")
-    emailLabel.textContent = "Email"
+    emailLabel.textContent = " Email "
     emailLabel.setAttribute("for", "email")
     let emailInput = document.createElement("input")
     emailInput.setAttribute("id", "email")
@@ -19,7 +19,7 @@ const registrationForm = {
 
     let userField = document.createElement("fieldset")
     let userLabel = document.createElement("label")
-    userLabel.textContent = "Username"
+    userLabel.textContent = " Username "
     userLabel.setAttribute("for", "user")
     let userInput = document.createElement("input")
     userInput.setAttribute("id", "user")
@@ -87,8 +87,8 @@ const registrationForm = {
         username: userInputUsername
       }
       userCollection.yayNewPal(newUser)
-    },
-    //handleReturnUser
+  }
+    // handleReturnUser
     // newAcctOnClick () {
     //   registrationForm.createAndAppendForm.newAcctBtn.addEventListener("click", this.showDivs)
     //   console.log("clicked")

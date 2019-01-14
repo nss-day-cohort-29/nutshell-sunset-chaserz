@@ -20,6 +20,7 @@ const userCollection = {
     })
   }
 }
+export default userCollection
   //***** TEST *****/
   // DELETE USER
   // dudeGoAway(id) {

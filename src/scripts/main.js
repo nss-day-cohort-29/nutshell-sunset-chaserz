@@ -4,23 +4,22 @@ import eventListeners from "./tasks/taskEventListeners"
 // import saveCalListener from "./eventListener"
 import taskForm from "./tasks/taskForms";
 import taskList from "./tasks/taskDataList";
+//import eventListeners from "./registration/registration"
 import registrationForm from "./registration/registration"
 
 // Zac
-//eventListener.onload(registrationForm.createAndAppendForm())
+registrationForm.createAndAppendForm()
 registrationForm.handleAddNewUser()
-
+console.log("hi")
 // Allison
-taskList.listify()
-taskForm.createAndAppendForm()
-
-
-console.log(dataCollection.soManyFriend());
-console.log(dataCollection.getAllNews());
-console.log(taskForm)
+//taskList.listify()
+//taskForm.createAndAppendForm()
+//console.log(dataCollection.soManyFriend());
+//console.log(dataCollection.getAllNews());
+//console.log(taskForm)
 
 // Grady
-eventListeners.newsClick();
+//eventListeners.newsClick();
 //window.alert('HI');
 // import dataCollection from "./dataCollection"
 // import dataList from "./dataList"
@@ -28,48 +27,6 @@ eventListeners.newsClick();
 // import taskForm from "./forms";
 
 // console.log(dataCollection.soManyFriend());
-console.log(taskForm)
-console.log(calendarEvents)
-// ---------------------------- BEGIN REGISTRATION  -------------------------------
+//console.log(taskForm)
+//console.log(calendarEvents)
 
-// registrationForm.createAndAppendForm();
-
-// let newAcctButton = document.querySelector('[name="newAcctButton"]')
-
-// newAcctButton.addEventListener("click", function() {
-//   let usernameInputField = document.getElementById("exampleInputEmail1");
-//   let usernameInputValue = usernameInputField.value;
-//   console.log(userNameInputValue);
-// });
-// //dataCollection.yayNewPal(newUser);
-// //Works
-// console.log(newAcctButton.className);
-// const handleNewUser = () => {
-//   let email = document.querySelector('[name="email"]').value
-//   let password = document.querySelector('[name="password"]').value
-//   let newUser = {
-//     email: email,
-//     password: password
-//   }
-//   console.log(newUser)
-// // dataCollection.yayNewPal(newUser)
-// //   .then(response => {
-// //     userList.dataCollection()
-// //   })
-// }
-// //  newAcctButton.addEventListener("click", handleNewUser)
-//     // let submitButton = document.querySelector('[name=submitButton]')
-//     // submitButton.addEventListener("click", registrationForm.handleAddNewUser())
-//     // let regForm = registrationForm.handleAddNewUser()
-//     // console.log(regForm)
-
-
-// //console.log(dataCollection.soManyFriend());
-// //console.log(registrationForm.handleAddNewUser());
-// //console.log(eventListener.consoleButton());
-// console.log(dataCollection.soManyFriend());
-// console.log(taskForm)
-
-// //window.alert('HI');
-
-// ---------------------------- END REGISTRATION  -------------------------------
