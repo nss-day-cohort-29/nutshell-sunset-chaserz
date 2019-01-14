@@ -5,7 +5,7 @@
 ### Hannah Neal
 ### Grady Robbins
 
-#Setup : how another person can download and run the application
+# Setup : how another person can download and run the application
 -[]Clone this repository
 -[]npm install
 -[]npm start
