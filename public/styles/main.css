@@ -6,6 +6,12 @@ Active states—with .active—to indicate the current page can be applied direc
 
 /* <!---------------------------------  END NAVBAR  -------------------------------------> */
 
+#formsContainer {
+    background-color: burlywood;
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black
+}
 #newsContainer {
     background-color: burlywood;
     margin: 25px;

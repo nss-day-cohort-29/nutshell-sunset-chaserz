@@ -1,4 +1,4 @@
-// All event listeners
+// Event listeners
 // name: Grady R.
 // purpose: build and export an object with methods allowing for eventlisteners.
 
@@ -13,8 +13,8 @@ const eventListeners = {
         let makeNewsplaceholder = document.getElementById("newsNavLink");
         // makeNewsplaceholder.addEventListener("click", () => forms2.renderNewsForm);
         makeNewsplaceholder.addEventListener("click", () => {
-        let newsContainerDiv = document.getElementById("newsContainer");
-        newsContainerDiv.innerHTML += forms2.renderNewsForm();})
+        let formsContainerDiv = document.getElementById("formsContainer");
+        formsContainerDiv.innerHTML += forms2.renderNewsForm();})
         // return makeNewsplaceholder
       },
 
@@ -23,7 +23,8 @@ const eventListeners = {
         newsFormSaveEntryButton.addEventListener("click", () => {
             //another function needed to capture the values and POST,
             //then
-            forms2.clearForm()
+            // forms2.clearForm()
+            console.log("hello")
         })
 
     }
