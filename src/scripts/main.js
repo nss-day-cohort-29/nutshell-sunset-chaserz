@@ -4,7 +4,13 @@ import eventListeners from "./tasks/taskEventListeners"
 // import saveCalListener from "./eventListener"
 import taskForm from "./tasks/taskForms";
 import taskList from "./tasks/taskDataList";
+import registrationForm from "./registration"
 
+// Zac
+eventListener.onload(registrationForm.createAndAppendForm())
+registrationForm.handleAddNewUser()
+
+// Allison
 taskList.listify()
 taskForm.createAndAppendForm()
 
@@ -13,7 +19,7 @@ console.log(dataCollection.soManyFriend());
 console.log(dataCollection.getAllNews());
 console.log(taskForm)
 
-
+// Grady
 eventListeners.newsClick();
 //window.alert('HI');
 // import dataCollection from "./dataCollection"
