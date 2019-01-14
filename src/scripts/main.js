@@ -1,9 +1,9 @@
-import dataCollection from "./dataCollection";
-import calendarEvents from "./eventListener";
-import eventListeners from "./eventListener"
+import dataCollection from "./tasks/taskDataCollection";
+import calendarEvents from "./tasks/taskEventListeners";
+import eventListeners from "./tasks/taskEventListeners"
 // import saveCalListener from "./eventListener"
-import taskForm from "./forms";
-import taskList from "./dataList";
+import taskForm from "./tasks/taskForms";
+import taskList from "./tasks/taskDataList";
 
 taskList.listify()
 taskForm.createAndAppendForm()
