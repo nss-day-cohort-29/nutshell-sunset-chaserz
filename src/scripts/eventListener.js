@@ -22,9 +22,9 @@ const eventListeners = {
         let newsFormSaveEntryButton = document.getElementById("saveNewsButton");
         newsFormSaveEntryButton.addEventListener("click", () => {
             //another function needed to capture the values and POST,
-            //then
-            // forms2.clearForm()
             console.log("hello")
+            //then
+            forms2.clearForm()
         })
 
     }

@@ -18,14 +18,14 @@ const forms2 = {
         <label for="newsURL">URL</label>
         <input required type="text" id="newsURL"></input>
         </fieldset>
-        <button class="saveNewsButton">Save this Entry</button>
+        <button id="saveNewsButton">Save this Entry</button>
         `
     },
     clearForm() {
-        console.log("save news button clicked");
-        // document.getElementById("newsTitle").value = "";
-        // document.getElementById("newsContent").value = "";
-        // document.getElementById("newsURL").value = "";
+        // console.log("save news button clicked");
+        document.getElementById("newsTitle").value = "";
+        document.getElementById("newsContent").value = "";
+        document.getElementById("newsURL").value = "";
 
         // return
     }

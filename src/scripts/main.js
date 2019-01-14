@@ -19,7 +19,8 @@ console.log("new friend!" , dataCollection.soManyFriend());
 
 // console.log(taskForm)
 
-let newsContainerDiv = document.getElementById("newsContainer");
+// let newsContainerDiv = document.getElementById("newsContainer");
+let formsContainerDiv = document.getElementById("formsContainer");
 // newsContainerDiv.innerHTML += forms2.renderNewsForm();
 
 
@@ -27,7 +28,7 @@ eventListener.newsClick();
 
 
 
-newsContainerDiv.addEventListener("click", () => {
+formsContainerDiv.addEventListener("click", () => {
     eventListener.newsFormSaveEntryButton();
 })
 
