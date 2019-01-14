@@ -1,16 +1,16 @@
-import dataCollection from "./tasks/taskDataCollection";
-import calendarEvents from "./tasks/taskEventListeners";
-import eventListeners from "./tasks/taskEventListeners"
+// import dataCollection from "./tasks/taskDataCollection";
+// import calendarEvents from "./tasks/taskEventListeners";
+// import eventListeners from "./tasks/taskEventListeners"
 // import saveCalListener from "./eventListener"
-import taskForm from "./tasks/taskForms";
-import taskList from "./tasks/taskDataList";
+// import taskForm from "./tasks/taskForms";
+// import taskList from "./tasks/taskDataList";
 //import eventListeners from "./registration/registration"
 import registrationForm from "./registration/registration"
 
 // Zac
 registrationForm.createAndAppendForm()
-registrationForm.handleAddNewUser()
-console.log("hi")
+//registrationForm.handleAddNewUser()
+//console.log("hi")
 // Allison
 //taskList.listify()
 //taskForm.createAndAppendForm()

@@ -77,8 +77,6 @@ const registrationForm = {
     registrationArticle.appendChild(registrationFormFrag)
   },
   handleAddNewUser (NewAcct) {
-    // Add an if and forEach in here to see if user already exists or not. Do something depending on their status.
-    userCollection.yayNewPal(NewAcct)
       let userInputEmail = document.querySelector("#email").value
       let userInputUsername = document.querySelector("#user").value
       
@@ -88,10 +86,29 @@ const registrationForm = {
       }
       userCollection.yayNewPal(newUser)
   }
-    // handleReturnUser
-    // newAcctOnClick () {
-    //   registrationForm.createAndAppendForm.newAcctBtn.addEventListener("click", this.showDivs)
-    //   console.log("clicked")
-    // }
+  // ,
+  // checkNewUserInfo () {
+  //   userCollection.soManyFriend()
+  //   .then(response => {
+  //     let username = response.find(user => {
+  //       return newUser.username === response.user
+  //     })
+  //     let email = response.find(email => {
+  //       return newUser.email === response.email
+  //     })
+  //     if (username) {
+  //       alert("Username is already taken")
+  //     } else if (email) {
+  //       alert("Username is already taken")
+  //     }
+  //   })
+  // }
+
+  
+  // handleReturnUser
+  // newAcctOnClick () {
+  //   registrationForm.createAndAppendForm.newAcctBtn.addEventListener("click", this.showDivs)
+  //   console.log("clicked")
+  // }
 }
 export default registrationForm
