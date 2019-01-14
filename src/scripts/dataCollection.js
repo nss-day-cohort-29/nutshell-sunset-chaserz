@@ -82,6 +82,6 @@ const dataCollection = {
 //         body: JSON.stringify(newtaskToSave)
 //       })
 //     }
-// }
+}
 
 // export default dataCollection
