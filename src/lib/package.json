@@ -13,7 +13,7 @@
     "@babel/preset-env": "^7.1.0",
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.4",
     "grunt-bg-shell": "^2.3.3",
     "grunt-browserify": "^5.3.0",
     "grunt-contrib-watch": "^1.1.0",
@@ -22,5 +22,12 @@
     "load-grunt-config": "^0.19.2",
     "nss-domcomponent": "^0.1.0"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "braces": "^3.0.2",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "mem": "^5.1.1",
+    "set-value": "^3.0.1"
+  }
 }
