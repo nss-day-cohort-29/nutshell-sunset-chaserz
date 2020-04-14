@@ -25,7 +25,9 @@
   "description": "",
   "dependencies": {
     "braces": "^3.0.2",
+    "ecstatic": "^4.1.4",
     "js-yaml": "^3.13.1",
+    "kind-of": "^6.0.3",
     "lodash": "^4.17.15",
     "mem": "^5.1.1",
     "set-value": "^3.0.1"
