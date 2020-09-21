@@ -1,6 +1,13 @@
+###### To Run this application:  
+1. clone
+1. ``` cd src/lib ```
+1. npm start
+
+
+
 # Nutshell: The Information Dashboard
 
-Nutshell is a new product offering that you have been tasked with building. It's a dashboard for people to use to organize their daily tasks, events, news article, friends, and chat messages.
+Nutshell is a dashboard to organize their daily tasks, events, news article, friends, and chat messages.
 
 You will be utilizing all of the skills and concepts that you've learned up to this point in the course.
 
