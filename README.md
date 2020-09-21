@@ -1,7 +1,7 @@
 ###### To Run this application:  
 1. clone
 1. ``` cd src/lib ```
-1. npm start
+1. ``` npm start ```
 
 
 
