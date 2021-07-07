@@ -11,7 +11,6 @@ const taskList = {
     //.then here refers to fetch call in taskCollection.js
     .then(alltasks => {
       let taskDocFragment = document.createDocumentFragment();
-      
       //iterate over data and build HTML for each item
       alltasks.forEach(taskItem => {
         let taskHTML = task.taskBuilder(taskItem)
@@ -25,9 +24,7 @@ const taskList = {
         outputArticle.removeChild(outputArticle.firstChild);
       }
       outputArticle.appendChild(taskDocFragment)
-
     })
   }
 }
-
 export default taskList */
